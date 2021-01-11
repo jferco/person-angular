@@ -1,1 +1,8 @@
-<p>home works!</p>
+<p>
+  Revisar y modificar el archivo people.json de la carpeta assets para aparecer
+  y desaparecer
+</p>
+
+<div *ngFor="let person of peopleObject" class="PersonContainer">
+  <app-person *ngIf="person.isActive" [info]="person"></app-person>
+</div>

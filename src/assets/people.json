@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "name": "Jose",
+      "age": 19,
+      "salary": 4500,
+      "isActive": true
+    },
+    {
+      "name": "Juan",
+      "age": 32,
+      "salary": 1500,
+      "isActive": false
+    },
+    {
+      "name": "Esteban",
+      "age": 44,
+      "salary": 3500,
+      "isActive": true
+    }
+  ]
+}

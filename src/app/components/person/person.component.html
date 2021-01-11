@@ -1,1 +1,8 @@
-<p>person works!</p>
+<div class="card" style="width: 18rem">
+  <div class="card-body">
+    <h5 class="card-title">{{ info.name }}</h5>
+    <p class="card-text">Salario: ${{ info.salary | number }}</p>
+    <p class="card-text">Edad: {{ info.age }}</p>
+    <a routerLink="/other" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
